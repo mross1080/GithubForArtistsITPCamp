@@ -50,9 +50,9 @@ Particle.prototype.display = function() {
   stroke(200, this.lifespan);
   strokeWeight(2);
   fill(particleColorR, particleColorG,this.lifespan);
-    rect(this.position.x, this.position.y,  12, 12);
+    <!--rect(this.position.x, this.position.y,  12, 12);-->
 
-  <!--ellipse(this.position.x, this.position.y, 12, 12);-->
+  ellipse(this.position.x, this.position.y, 12, 12);
 };
 
 // Is the particle still useful?
