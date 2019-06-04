@@ -24,14 +24,19 @@
   Distributed version control systems are great because they:
   1. Keeps track of all changes made to every file in a repository (this is the fancy word people use for a file or set of files stored in git).
   2. Allows individual developers “push”, “pull”, “merge” and “branch” repositories.
+
   **Pull**: this allows you to download the code from the original repository, or any branch stored on GitHub.
+
   **Push**: this allows you to send changes you’ve made locally back to the original or master repository.
+
   **Branch**: this allows you to create a different version of a repository to work on a specific set of changes.
+
   **Merge**: this allows you to combine different branches of the same repository
-
-->![Linus Torvalds](img/linus.jpg)<-
-
-->*Linus Torvalds, creator of Git and Linux*<-
+<p style=”text-align: center;” align=”center”>
+<img src=img/linus.jpg>
+<br />
+Linus Torvalds, creator of Git and Linux
+</p>
   Git was created in 2005 by Linus Torvalds for use by the open-source team working on the Linux kernel. He called it “git” because it’s British slang for a stupid person, and he calls it “the stupid content tracker”. This is what passes for humor in programming.
 
 #### Alternatives to git
@@ -50,5 +55,11 @@
 | [GitHub](github.com)                | Most popular by far, great featureset, easy UI | Owned by Microsoft if that bothers you, doesn’t automatically come with continuous integration, doesn’t automatically come with a deployment platform, can’t export projects to other systems |
 | [Bitbucket](https://bitbucket.org/) | Allows hosting with Mercurial as well as git, many of the same features as GitHub, unlimited private and public repos | Less pricing options, GUI is uglier |
 | [GitLab](https://gitlab.com)        | Self-owned, comes with CI and deployment platform, greater control over permissions, allows importing data from other vendors, cheaper enterprise plan | Adoption less widespread, not as big of a dev community |
+
+## Other Things To Know
+
+### Licensing
+
+Most publicly available code on GitHub is considered open-source (which means anyone can use or contribute to it). If you want to keep your code closed-source and private, you’ll have to register for the paid GitHub tier. If you’re comfortable with keeping your code open, it’s wise to pick a license. Licenses are basically some legalese that determines how your code can be used. The most common ones on GitHub are the MIT License, which basically allows any use of your code including creating closed-source versions, and the GNU License, which allows any use *except* closed-source. If you need help choosing your license, [ChooseALicense](https://choosealicense.com/) is a helpful resource. To add licensing to your repository, you can follow the instructions [here](https://help.github.com/en/articles/licensing-a-repository).
 
 
