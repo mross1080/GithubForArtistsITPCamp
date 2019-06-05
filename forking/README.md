@@ -19,9 +19,10 @@ Give it a few seconds, and you should have your very own shiny new copy of the r
 
 On your own computer, navigate to the URL of your partner’s fork and follow the same instructions they followed in step 1.
 
-![The clone button](../img/clonebutton.png)
 
 ### 3. Once it’s loaded, both partners will create a “clone” of their forked repository on their local system.
+
+![The clone button](../img/clonebutton.png)
 
 Go to the bright green “Clone or Download” button, click it, and copy the link shown to the clipboard.
 
@@ -36,14 +37,14 @@ In your command line prompt (making sure to enter the folder you want this repos
 ## Adding and changing files
 
 ![changing directories to forking/files](../img/cd_fork.png)
-### 1. Once your clone is set up with the fork as a remote, enter `cd forking/files` in the command line.
+ 1. Once your clone is set up with the fork as a remote, enter `cd forking/files` in the command line.
 You’re now in the “files” directory of the “forking” subdirectory.
 
-### 2. Now enter `touch yourname.txt` in the command line, substituting your actual name for yourname.
+ 2. Now enter `touch yourname.txt` in the command line, substituting your actual name for yourname.
 
-### 3. Using your favorite text editor, open the “yourname.txt” file and add your favorite food (or whatever you feel like adding) into the file. Save it.
+ 3. Using your favorite text editor, open the “yourname.txt” file and add your favorite food (or whatever you feel like adding) into the file. Save it.
 
-### 4. Return to the terminal and enter `git add .` then `git commit -am “add favorite food file”`.
+ 4. Return to the terminal and enter `git add .` then `git commit -am “add favorite food file”`.
 
 ## Pushing and Creating A Pull Request
 
@@ -56,22 +57,45 @@ You can now pull from our partner’s repository: `git pull yourpartnersname mas
 
 ![filesystem image](../img/filesystem.png)
 
-If we check in our file system, you should now see both our name and theirs.
+If we check in our file system, you should now see both your name and theirs.
 
 #### Now for the fun part:
 
 Now that you’ve added their changes, push to your fork again: `git push origin master`. In the browser, navigate to your fork.
 
-![pull request button](../img/pr_button.png)
 
 ### 1. Hit the “New pull request” button on the lower left.
 
-![pull request popup](../img/pr_page.png)
+![pull request button](../img/pr_button.png)
 
 ### 2. On the following page, if you see a green checkmark that says “Able to merge”, hit the “Create pull request” button.
 
-![pull request comment page](../img/pr_commentary.png)
+![pull request popup](../img/pr_page.png)
 
 One last page to go! Traditionally you can enter comments here if you have any questions or feel that your commit requires more explanation than you could fit in the commit message.
 
+![pull request comment page](../img/pr_commentary.png)
+
 ### 3. Once you feel like you’re ready to go, hit “Create pull request”
+
+Congrats! You just created your first pull request.
+
+## Merging a pull request
+
+Now, the person who’s fork was pull requested can merge the pull request.
+
+1. In GitHub, navigate to the “Pull requests” tab.
+
+![pull requests tab](../img/pr_tab.png)
+
+You should see one pull request listed as “open”. Click on it.
+
+2. If everything went right, you should see a message that the branch has no conflicts with the base branch, and a green button that says “Merge pull request.” Click it (or comment on the pull request if you’re unsatisfied for any reason.)
+
+![merge pull request page](../img/mergedpr.png)
+
+Now, hit “Confirm merge”.
+
+![confirm merge](../img/confirm_merge.png)
+
+Congrats! You’ve successfully completed the workflow that just about every open source project you’ll ever encounter uses.
