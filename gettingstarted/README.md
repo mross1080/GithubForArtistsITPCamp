@@ -12,3 +12,5 @@ In lamens terms.
 
 
 Add.....Commit....Push....
+
+1. Create a Github Account 
