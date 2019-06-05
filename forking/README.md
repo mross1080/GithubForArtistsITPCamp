@@ -75,8 +75,3 @@ Now that you’ve added their changes, push to your fork again: `git push origin
 One last page to go! Traditionally you can enter comments here if you have any questions or feel that your commit requires more explanation than you could fit in the commit message.
 
 ### 3. Once you feel like you’re ready to go, hit “Create pull request”
-
-
-
-
-TEST TEST TEST TEST
