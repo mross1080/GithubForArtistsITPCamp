@@ -1,10 +1,14 @@
 # Getting Started! 
 
-Example adapted from
-https://p5js.org/examples/simulate-particle-system.html
 
+Here are the main commands you'll be working with
 
-In lamens terms. 
+```
+git status
+git add {my file}
+git commit -m 'commit message'
+git push {repo origin} {branch of repository to push to}
+```
 
 * When I am done working on a file I "add" it
     * When you Add a file, you "stage" it which means you are preparing it to be committed
@@ -17,6 +21,14 @@ In lamens terms.
 ![alt text](../img/gitdata.png "Click here for a new repo!")
 
 Add.....Commit....Push....
+
+Remote Repository?
+
+![alt text](../img/basicwork.png "Click here for a new repo!")
+
+Github may be the topic of todays session but it all work's through the git protocol.
+A remote repository is just a copy of your work stored in a different place then where you are currently working.  
+
 
 Steps 
 
@@ -34,10 +46,14 @@ Steps
 4. Go look at your new repo!
 ![alt text](../img/blankrepo.png "Click here for a new repo!")
 
+
+
+
 # Challenge!
 * Add your favorite cat or dog picture to the readme and push it to github!
 
 remember the steps!
+
 
 ```
 git status
