@@ -94,7 +94,7 @@ You should see one pull request listed as “open”. Click on it.
 
 ![merge pull request page](../img/mergedpr.png)
 
-Now, hit “Confirm merge”.
+3. Now, hit “Confirm merge”.
 
 ![confirm merge](../img/confirm_merge.png)
 
