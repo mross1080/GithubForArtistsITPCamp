@@ -9,9 +9,15 @@
     <script>
         let system;
         // CHANGE THESE PARAMETERS
-        let particleLifespan = 225;
+
+        // Set value between 0-255
+        let particleLifespan = 100;
+        // Set value between 0-255
         let particleColorR = 127;
+        // Set value between 0-255
         let particleColorG = 255;
+        // Set value to true or false
+        let useSquares = false;
 
 
 function setup() {
@@ -30,7 +36,7 @@ let Particle = function(position) {
   this.acceleration = createVector(0, 0.05);
   this.velocity = createVector(random(-1, 1), random(-1, 0));
   this.position = position.copy();
-  this.lifespan = 225;
+  this.lifespan = particleLifespan;
 };
 
 Particle.prototype.run = function() {
@@ -50,9 +56,15 @@ Particle.prototype.display = function() {
   stroke(200, this.lifespan);
   strokeWeight(2);
   fill(particleColorR, particleColorG,this.lifespan);
-    <!--rect(this.position.x, this.position.y,  12, 12);-->
-
+  if (useSquares == true) {
+  rect(this.position.x, this.position.y,  12, 12);
+  } else {
   ellipse(this.position.x, this.position.y, 12, 12);
+
+  }
+
+
+
 };
 
 // Is the particle still useful?
