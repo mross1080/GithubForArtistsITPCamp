@@ -45,5 +45,10 @@ If we check in our file system, you should now see both our name and theirs.
 
 Now that you’ve added their changes, push to your fork again: `git push origin master`. In the browser, navigate to your fork.
 
+![pull request button](../img/pr_button.png)
 
+Hit the “New pull request” button on the lower left.
+
+
+test test test
 
