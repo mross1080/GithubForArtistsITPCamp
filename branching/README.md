@@ -93,7 +93,7 @@ If we enter `git branch` into the command line, we should see that the conflict 
 
 In the text editor of your choice, make a change to the mycoolparticles.html file.  I’m going to change the value of the particle color:
 
-        ```let particleColorG = 100;```
+        ```let particleColorG = 107;```
 
 Now let’s add and commit this change:
 
@@ -109,13 +109,32 @@ I’m going to change the color to 104.
 
 `let particleColorG = 104`
 
-Now, same as above, let’s add and commit our changes.
+Now, same as above, save the file, and then let’s add and commit our changes.
 
 `git add .`
 
-`git commit -am ‘changed particle color, but differently!’`
+`git commit -am ‘changed particle color, but differently’`
 
 Now that we’ve done this, let’s try to merge our branches!
+
+In the command line, enter `git merge conflict`. You should see something like this:
+
+![conflict message](../img/conflict_message.png)
+
+If we open the html file, nothing will happen, and upon inspecting we’ll see something like this:
+
+![firefox error message](../img/firefox_error.png)
+What happened? Both branches have changed to a different particle color since we created the conflict branch, and neither knows which one is supposed to be right. If you open `mycoolparticles.html` and go to the `particleColorG` variable, you should see something like this:
+
+![head conflict message](../img/head_conflict.png)
+
+This may seem intimidating, but it’s actually quite simple: the values betwen the `<<<<<<<< HEAD` and the `=======` are the values on the current branch (`master`), and the values after  the `=========` and before the `>>>>>>>> conflict` are the values on the branch we’re trying to merge in.Basically, “HEAD” means current branch, and the other value is named for the branch we’re merging.
+
+Pick which one you’d like to keep, then delete the other, making sure to delete the `<<<<<<<< HEAD`, `==========`, and `>>>>>>>> conflict` as well.
+
+Save the file, then add and commit these changes: `git add .`, followed by `git commit -am ‘fix merge conflicts`.
+
+If you open the file in your browser, it should now be working fine.
 
 
 Example adapted from
