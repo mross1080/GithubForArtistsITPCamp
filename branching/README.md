@@ -101,7 +101,21 @@ Now let’s add and commit this change:
 
 ` git commit -am “changed particle color.”`
 
+Now, we’re going to switch to the master branch and do the same thing, setting a different value for particle color.
 
+`git checkout master`
+
+I’m going to change the color to 104.
+
+`let particleColorG = 104`
+
+Now, same as above, let’s add and commit our changes.
+
+`git add .`
+
+`git commit -am ‘changed particle color, but differently!’`
+
+Now that we’ve done this, let’s try to merge our branches!
 
 
 Example adapted from
