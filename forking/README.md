@@ -56,4 +56,3 @@ On the following page, if you see a green checkmark that says “Able to merge�
 ![pull request comment page](../img/pr_commentary.png)
 
 One last page to go! Traditionally you can enter comments here if you have any questions or feel that your commit requires more explanation than you could fit in the commit message. Once you feel like you’re ready to go, hit “Create pull request”
-
