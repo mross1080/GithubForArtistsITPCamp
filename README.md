@@ -2,6 +2,17 @@
 
 Welcome to GitHub for artists! This repository is an introduction to the history and basics of git, by [Matt Ross]() and [Brent Bailey](http://brentlbailey.com). Git and GitHub are extremely powerful tools for collaborative and iterative work, and an essential part of anyone working in creative technology or digital media’s toolkit. It’s our hope that these tutorials and resources will help people new to these technologies begin to adopt them. To that end, we’re happy to accept pull requests, suggestions, and more to make these resources as useful as they can be.
 
+This repository and tutorials are designed for beginners to both git and GitHub, although some prior experience using the Terminal and programming will be helpful. If you haven’t used the Terminal before or are out of practice, here are some beginner tutorial for [Mac](https://macpaw.com/how-to/use-terminal-on-mac) and [Linux](https://www.howtogeek.com/140679/beginner-geek-how-to-start-using-the-linux-terminal/). I wouldn’t recommend using Windows with this tutorial since it wasn’t designed for that system, but if you want to try here’s a primer for [Powershell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell?view=powershell-6).
+
+You’ll also want to ensure you [have git installed](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git). Once that’s done, [create a github account](https://github.com/join), and set up SSH access:
+
+1. [Check for SSH keys](https://help.github.com/en/articles/checking-for-existing-ssh-keys). If you don’t have any, [generate one](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
+2. [Add an SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account).
+
+3. [Test your connection](https://help.github.com/en/articles/testing-your-ssh-connection).
+
+Once that’s all done, you should be ready to go.
+
 ## What’s Git?
   Git is a [version control system](https://www.atlassian.com/git/tutorials/what-is-version-control).
 ### What’s Version Control?
@@ -43,6 +54,10 @@ Linus Torvalds, creator of Git and Linux
 
 ## Other Things To Know
 
+### README files
+
+Want other people to actually use the things you’re posting on GitHub? You’ll need a README.md file. These are files written in “markdown” language, generally containing information about and instructions for use of a repository. This repository is a great example of them, since both the primary directory and each folder contains a README, but if you want to learn to write one yourself, you may want more resources. What just about every programmer goes to first is the [Markdown Cheat Sheet](https://www.markdownguide.org/cheat-sheet), a list of basic syntax you’ll find yourself using a lot in Markdown. If you want to get more complex, the same website, [markdown guide](https://www.markdownguide.org/cheat-sheet) has a ton of useful resources for learning the deeper complexities of Markdown.
+
 ### Other Stuff You Can Do On GitHub
 
 [Github Pages](https://pages.github.com/) : a quick and easy hosting solution for static websites. Unlimited repositories. Can’t host any servers or anything particularly complex.
@@ -65,5 +80,6 @@ If we’ve successfully convinced you that git and GitHub are the way to go, you
 *[GitHub Guides](https://guides.github.com/): a series of tutorials produced by GitHub for learning its tools. Great way to get started with GitHub Pages, creating wikis, and more.
 
 *[Version Control with Git](http://shop.oreilly.com/product/0636920022862.do) : getting reallllly into git? Check out O’Reilly’s version control with git, a great resource for getting super in-depth.
+
 
 
