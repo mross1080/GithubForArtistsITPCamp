@@ -2,7 +2,6 @@
 
 
 1. Here are other ways of sharing files and doing version control
-1. Flounder through it
 2. What is Github,
   1. History
   2. What is git vs GitHub,
@@ -62,4 +61,3 @@ Linus Torvalds, creator of Git and Linux
 Most publicly available code on GitHub is considered open-source (which means anyone can use or contribute to it). If you want to keep your code closed-source and private, you’ll have to register for the paid GitHub tier. If you’re comfortable with keeping your code open, it’s wise to pick a license. Licenses are basically some legalese that determines how your code can be used. The most common ones on GitHub are the MIT License, which basically allows any use of your code including creating closed-source versions, and the GNU License, which allows any use *except* closed-source. If you need help choosing your license, [ChooseALicense](https://choosealicense.com/) is a helpful resource. To add licensing to your repository, you can follow the instructions [here](https://help.github.com/en/articles/licensing-a-repository).
 
 
->>>>>>> a579767e72f0fe1a621a0ea9946568707d159a1e

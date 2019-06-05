@@ -13,4 +13,9 @@ In lamens terms.
 
 Add.....Commit....Push....
 
-1. Create a Github Account 
+Steps 
+
+Create your own repo.  
+
+1. 
+![alt text](../img/newrepo.png "Click here for a new repo!")
