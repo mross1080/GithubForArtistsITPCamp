@@ -46,4 +46,16 @@ If we check in our file system, you should now see both our name and theirs.
 Now that you’ve added their changes, push to your fork again: `git push origin master`. In the browser, navigate to your fork.
 
 
+![pull request button](../img/pr_button.png)
+
+Hit the “New pull request” button on the lower left.
+
+![pull request popup](../img/pr_page.png)
+
+On the following page, if you see a green checkmark that says “Able to merge”, hit the “Create pull request” button.
+
+![pull request comment page](../img/pr_commentary.png)
+
+One last page to go! Traditionally you can enter comments here if you have any questions or feel that your commit requires more explanation than you could fit in the commit message. Once you feel like you’re ready to go, hit “Create pull request”
+
 
