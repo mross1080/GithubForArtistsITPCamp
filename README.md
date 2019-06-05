@@ -1,19 +1,6 @@
 # Github for Artists
 
-
-1. Here are other ways of sharing files and doing version control
-2. What is Github,
-  1. History
-  2. What is git vs GitHub,
-  3. Open Source
-  1. Licesnses
-  3. Create Github account and install git
-  * Pull Repo
-  4. basic git commands (i.e. how to work by yourself and just have a more efficient version control system/public portfolio of code/open source bois),
-  1. Here is what it’s like to work with multiple versions of the same thing
-  2. Everyone add a file with their name and favorite food
-5.  how to use branches(basically have a p5 sketch and have two different branches of two different aesthetic styles ) ,
-  6. how to merge code with other people ( have a p5 sketch, have one person make changes adding ml5 or something have one person change the style or something, and show them how to combine)
+Welcome to GitHub for artists! This repository is an introduction to the history and basics of git, by [Matt Ross]() and [Brent Bailey](http://brentlbailey.com). Git and GitHub are extremely powerful tools for collaborative and iterative work, and an essential part of anyone working in creative technology or digital media’s toolkit. It’s our hope that these tutorials and resources will help people new to these technologies begin to adopt them. To that end, we’re happy to accept pull requests, suggestions, and more to make these resources as useful as they can be.
 
 ## What’s Git?
   Git is a [version control system](https://www.atlassian.com/git/tutorials/what-is-version-control).
@@ -56,8 +43,27 @@ Linus Torvalds, creator of Git and Linux
 
 ## Other Things To Know
 
+### Other Stuff You Can Do On GitHub
+
+[Github Pages](https://pages.github.com/) : a quick and easy hosting solution for static websites. Unlimited repositories. Can’t host any servers or anything particularly complex.
+
+[Wikis](https://help.github.com/en/articles/about-wikis): a great way to document more complex open-source projects (or use as a blog, syllabus, or any other purpose you might think of).
+
+[Pro and Enterprise](https://help.github.com/en/articles/githubs-products) : starting a business? Working with a big group? Want to keep your code closed-source (boooooo)? Github has a range of options for professional and enterprise use.
+
+
 ### Licensing
 
 Most publicly available code on GitHub is considered open-source (which means anyone can use or contribute to it). If you want to keep your code closed-source and private, you’ll have to register for the paid GitHub tier. If you’re comfortable with keeping your code open, it’s wise to pick a license. Licenses are basically some legalese that determines how your code can be used. The most common ones on GitHub are the MIT License, which basically allows any use of your code including creating closed-source versions, and the GNU License, which allows any use *except* closed-source. If you need help choosing your license, [ChooseALicense](https://choosealicense.com/) is a helpful resource. To add licensing to your repository, you can follow the instructions [here](https://help.github.com/en/articles/licensing-a-repository).
+
+### Resources
+
+If we’ve successfully convinced you that git and GitHub are the way to go, you’re in luck: there are tons of resources out there for both. We’ll list a few here:
+
+*[Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf)* : a list of commonly used git commands.
+
+*[GitHub Guides](https://guides.github.com/): a series of tutorials produced by GitHub for learning its tools. Great way to get started with GitHub Pages, creating wikis, and more.
+
+*[Version Control with Git](http://shop.oreilly.com/product/0636920022862.do) : getting reallllly into git? Check out O’Reilly’s version control with git, a great resource for getting super in-depth.
 
 
