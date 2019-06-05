@@ -39,7 +39,9 @@ Steps
 
 remember the steps!
 
-
+```
+git status
 git add README.md
 git commit -m 'changed some stuff'
 git push origin master
+```
