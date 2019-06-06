@@ -54,13 +54,13 @@ In terminal, you can either manually initiate git and add this GitHub repo as a 
 
 
 ## Challenge!
-* Add your favorite cat or dog picture to the repo and push it to github!
+* Add your favorite quote  and push it to github!
 
-Remember the steps! On your local computer, go to this folder and copy an image into it, then return to the terminal.
+Remember the steps! On your local computer, go to this folder change the file README make a change, then return to the terminal.
 
 ```
 git status
-git add yourphoto.jpg
+git add README.md
 git commit -m 'changed some stuff'
 git push origin master
 ```
